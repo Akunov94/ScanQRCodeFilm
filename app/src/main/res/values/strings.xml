@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ScanQRCodeFilm</string>
+    <string name="scan_film">Scan Film</string>
+</resources>

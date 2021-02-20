@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".ui.FilmInfo">
+    <TextView
+        android:gravity="center"
+        android:id="@+id/FilmId"
+        android:textSize="12sp"
+        style="@style/film_info" />
+    <TextView
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:id="@+id/FilmTitle"
+        style="@style/film_info" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="ScrollViewCount">
+        <TextView
+            android:id="@+id/FilmDescription"
+            android:textSize="16sp"
+            style="@style/film_info" />
+
+    </ScrollView>
+
+
+</LinearLayout>
